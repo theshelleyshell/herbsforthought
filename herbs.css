@@ -1,16 +1,37 @@
 @charset "utf-8";
 
 /* GLOBALS */
+html, body, h1, h2, h3, h4, h5, h6	{padding:0; margin:0;}
+body {font-family:arial, sans-serif;}
 .noPadOrMargin {list-style:none; padding:0; margin:0;}
-a{color:red;font-style:italic;text-decoration:none;}
-a:hover{color:green;}
+.fluidImg {max-width:100%; height:auto;}
+a{color:#000000; font-style:italic; text-decoration:none;}
+a:hover{color:#68ab10;}
 
-#mainnav ul{text-align:center;}
-#mainnav ul li{padding:0 20px; text-align:center; display:inline-block;}
-#mainnav ul li a{font-style:normal;}
+#top {text-align:center; font-family:Forum; padding:10px;}
 
-#hero {width:80%;margin:0 auto;}
+#mainnav {margin:0 0 10px 0; padding:10px 0; background-color:#000000; color:#ffffff;}
+#mainnav ul {text-align:center;}
+#mainnav ul li {padding:0 20px; text-align:center; display:inline-block;}
+#mainnav ul li a {font-style:normal; color:#ffffff;}
+#mainnav ul li a:hover {color:#68ab10;}
+
+.bodyWrapper {width:80%; margin:0 auto;}
+#hero {width:80%;margin:0 auto; float:right;}
 #hero img,#hero nav{float:right;}
 #hero nav{float:left;}
-#linksnav li {color:red;font-size:1.5em; margin:5px 0;}
-#linksnav li.heading {color:black; font-size:1.75em; margin:0 0 5px 0;}
+#linksnav li {width:20%; color:#000000; font-size:1.5em; margin:5px 0; float:left; text-indent:0.2em;}
+#linksnav li.heading {color:#ffffff; padding:0.2em 0; font-size:1.75em; margin:0 0 5px 0; background-color:#000000;}
+#herbproducts {width:80%; margin:0 auto;}
+
+.bodyWrapper .list {text-align:center;}
+.bodyWrapper .list a {font-style:normal;}
+.bodyWrapper .list img {max-width:100%; height:auto;}
+.bodyWrapper .listItem {width:29%; max-width:300px; margin:1%; display:inline-block; color:#ffffff; background-color:#000000; border:10px solid #000000;}
+.bodyWrapper .listItem:hover {color:#68ab10; border:10px solid #68ab10;}
+.bodyWrapper .listItem .title {font-weight:bold; padding:5% 0; background-color:#000000;}
+
+footer {width:100%; background-color:#000000; color:#ffffff; padding:0 0 1em 0; margin:1em 0 0 0; clear:both;}
+footer .logo {width:100%; text-align:center; font-size:2.5em; font-family:Forum; padding:1em 0 0 0;}
+.footlinkwrapper {width:80%; margin:0 auto; text-align:center;}
+footer ul {width: 10%; padding:1em 0; margin:0 6%; display:inline-block; text-align:left; list-style:none;}
