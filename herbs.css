@@ -17,12 +17,12 @@ a:hover{color:#68ab10;}
 #mainnav ul li a:hover {color:#68ab10;}
 
 .bodyWrapper {width:80%; margin:0 auto;}
-#hero {width:80%;margin:0 auto; float:right;}
-#hero img,#hero nav{float:right;}
-#hero nav{float:left;}
-#linksnav li {width:20%; color:#000000; font-size:1.5em; margin:5px 0; float:left; text-indent:0.2em;}
-#linksnav li.heading {color:#ffffff; padding:0.2em 0; font-size:1.75em; margin:0 0 5px 0; background-color:#000000;}
-#herbproducts {width:80%; margin:0 auto;}
+#hero {margin:0 auto; text-align:center;}
+#hero img {width:80%; display:inline-block;}
+#hero nav{width:19%; display:inline-block; vertical-align:top;}
+#linksnav li {width:100%; color:#000000; font-size:1.5em; margin:5px 0; float:left; text-indent:0.2em; text-align:left;}
+#linksnav li.heading {color:#ffffff; padding:0.2em 0.2em 0.2em 0; font-size:1.75em; margin:0 0 5px 0; background-color:#000000;}
+#herbproducts img {margin:0 auto; clear:both; display:block;}
 
 .bodyWrapper .list {text-align:center;}
 .bodyWrapper .list a {font-style:normal;}
