@@ -8,30 +8,70 @@ body {font-family:arial, sans-serif;}
 a{color:#000000; font-style:italic; text-decoration:none;}
 a:hover{color:#68ab10;}
 
-#top {text-align:center; font-family:Forum; padding:10px;}
+/*#wrapper {background-image:url("_images/tiao.jpg");} TODO : Insert proper background image here when ready */
+#top {text-align:center; font-family:Forum; padding:10px; background:#ffffff;}
 
-#mainnav {margin:0 0 10px 0; padding:10px 0; background-color:#000000; color:#ffffff;}
-#mainnav ul {text-align:center;}
-#mainnav ul li {padding:0 20px; text-align:center; display:inline-block;}
-#mainnav ul li a {font-style:normal; color:#ffffff;}
+#mainnav {padding:10px 0; background-color:#000000; color:#ffffff;}
+#mainnav ul {max-height:23px; overflow:hidden; text-align:left; transition:max-height 0.5s ease-out;}
+#mainnav:hover ul {max-height:200px; transition:max-height 0.5s ease-in;}
+#mainnav .menuopen, #mainnav:hover .menuclose {height:23px; opacity:1; padding:0 0 0 1em; overflow:hidden; display:block; transition:height 0.2s, opacity 0.2s;}
+#mainnav .menuclose, #mainnav:hover .menuopen {height:0; opacity:0; padding:0 0 0 1em; overflow:hidden; display:block; transition:height 0.2s, opacity 0.2s;}
+#mainnav ul li {padding:0 2em; text-align:left;}
+#mainnav ul li a {font-style:normal; font-size:1.3em; color:#ffffff;}
 #mainnav ul li a:hover {color:#68ab10;}
 
-.bodyWrapper {width:80%; margin:0 auto;}
+.bodyWrapper {width:90%; margin:0 auto; padding:1em 0; background:#ffffff; box-shadow:0 4px 2px 2px #cccccc;}
 #hero {margin:0 auto; text-align:center;}
-#hero img {width:80%; display:inline-block;}
-#hero nav{width:19%; display:inline-block; vertical-align:top;}
-#linksnav li {width:100%; color:#000000; font-size:1.5em; margin:5px 0; float:left; text-indent:0.2em; text-align:left;}
-#linksnav li.heading {color:#ffffff; padding:0.2em 0.2em 0.2em 0; font-size:1.75em; margin:0 0 5px 0; background-color:#000000;}
+#hero img {width:100%; display:inline-block;}
+#hero nav{display:none;}
 #herbproducts img {margin:0 auto; clear:both; display:block;}
 
 .bodyWrapper .list {text-align:center;}
 .bodyWrapper .list a {font-style:normal;}
-.bodyWrapper .list img {max-width:100%; height:auto;}
-.bodyWrapper .listItem {width:29%; max-width:300px; margin:1%; display:inline-block; color:#ffffff; background-color:#000000; border:10px solid #000000;}
-.bodyWrapper .listItem:hover {color:#68ab10; border:10px solid #68ab10;}
-.bodyWrapper .listItem .title {font-weight:bold; padding:5% 0; background-color:#000000;}
+.bodyWrapper .list img {max-width:100%; height:auto; margin:0 0 14% 0;}
+.bodyWrapper .listItem {width:28%; position:relative; margin:1%; display:inline-block; font-size:0.5em; color:#ffffff; background-color:#000000; border:3px solid #000000;}
+.bodyWrapper .listItem .title {position:absolute; left:0; right:0; bottom:0; font-weight:bold; padding:5% 0; background-color:#000000;}
 
-footer {width:100%; background-color:#000000; color:#ffffff; padding:0 0 1em 0; margin:1em 0 0 0; clear:both;}
+footer {width:100%; background-color:#000000; color:#ffffff; padding:0 0 1em 0; clear:both;}
 footer .logo {width:100%; text-align:center; font-size:2.5em; font-family:Forum; padding:1em 0 0 0;}
-.footlinkwrapper {width:80%; margin:0 auto; text-align:center;}
-footer ul {width: 10%; padding:1em 0; margin:0 6%; display:inline-block; text-align:left; list-style:none;}
+.footlinkwrapper {width:90%; margin:0 auto; text-align:center;}
+footer ul {width:30%; padding:1em 0; margin:0 6%; display:inline-block; text-align:left; list-style:none; vertical-align:top;}
+footer ul li {padding:0.2em 0;}
+footer a {color:#ffffff;}
+
+@media screen and (min-width:640px) {
+	.bodyWrapper .listItem {font-size:0.7em;}
+	footer ul {width:20%; margin:0 2%;}
+}
+
+@media screen and (min-width:768px) {
+	#mainnav ul {max-height:none; overflow:initial; text-align:center; transition:none;}
+	#mainnav ul li {text-align:center; display:inline-block; padding:0.5em 2em;}
+	#mainnav .menuopen, #mainnav .menuclose, #mainnav:hover .menuopen, #mainnav:hover .menuclose {display:none;}
+	#hero nav{width:19%; display:inline-block; vertical-align:top; font-size:0.7em}
+	#linksnav li {width:100%; color:#000000; font-size:1.5em; margin:5px 0; float:left; text-indent:0.2em; text-align:left;}
+	#linksnav li.heading {color:#ffffff; padding:0.2em 0.2em 0.2em 0; font-size:1.75em; margin:0 0 5px 0; background-color:#000000;}
+	#hero img {width:80%; display:inline-block;}
+	.bodyWrapper .listItem {font-size:1em;}
+}
+
+@media screen and (min-width:960px) {
+	#mainnav ul li {text-align:center; display:inline-block; padding:0 0.9em;}
+	#linksnav li {width:100%; color:#000000; font-size:1.5em; margin:5px 0; float:left; text-indent:0.2em; text-align:left;}
+	#linksnav li.heading {color:#ffffff; padding:0.2em 0.3em 0.2em 0; font-size:1.75em; margin:0 0 5px 0; background-color:#000000;}
+	.bodyWrapper .listItem {width:29%; max-width:300px; border:5px solid #000000;}
+	.bodyWrapper .listItem:hover {color:#68ab10; border:5px solid #68ab10;}
+	.footlinkwrapper {width:80%;}
+}
+
+@media screen and (min-width:1080px) {
+	#mainnav ul li {padding:0 1em;}
+	.bodyWrapper {width:80%;}
+	#hero nav {width:24%; font-size:1em;}
+	#hero img {width:75%}
+	#linksnav li.heading {padding:0.2em 0.2em 0.2em 0;}
+}
+
+@media screen and (min-width:1220px) {
+	#mainnav ul li {padding:0 2em;}
+}
