@@ -9,9 +9,10 @@ a{color:#000000; font-style:italic; text-decoration:none;}
 a:hover{color:#68ab10;}
 
 /*#wrapper {background-image:url("_images/tiao.jpg");} TODO : Insert proper background image here when ready */
-#top {text-align:center; font-family:Forum; padding:10px; background:#ffffff;}
+#top {text-align:center; font-family:Forum; padding:10px; background:#ffffff; float:left; font-size:0.8em;}
+.natureslogo {width:3.2em; height:2.2em; position:absolute; right:10px; top:10px;}
 
-#mainnav {padding:10px 0; background-color:#000000; color:#ffffff;}
+#mainnav {padding:10px 0; background-color:#000000; color:#ffffff; clear:both;}
 #mainnav ul {max-height:23px; overflow:hidden; text-align:left; transition:max-height 0.5s ease-out;}
 #mainnav:hover ul {max-height:200px; transition:max-height 0.5s ease-in;}
 #mainnav .menuopen, #mainnav:hover .menuclose {height:23px; opacity:1; padding:0 0 0 1em; overflow:hidden; display:block; transition:height 0.2s, opacity 0.2s;}
@@ -24,7 +25,7 @@ a:hover{color:#68ab10;}
 #hero {margin:0 auto; text-align:center;}
 #hero img {width:100%; display:inline-block;}
 #hero nav{display:none;}
-#herbproducts img {margin:0 auto; clear:both; display:block;}
+.widebanner img {margin:0 auto; clear:both; display:block;}
 
 .bodyWrapper .list {text-align:center;}
 .bodyWrapper .list a {font-style:normal;}
@@ -40,6 +41,7 @@ footer ul li {padding:0.2em 0;}
 footer a {color:#ffffff;}
 
 @media screen and (min-width:640px) {
+	#top {font-size:1em; float:none;}
 	.bodyWrapper .listItem {font-size:0.7em;}
 	footer ul {width:20%; margin:0 2%;}
 }
