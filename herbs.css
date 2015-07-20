@@ -4,9 +4,21 @@
 html, body, h1, h2, h3, h4, h5, h6	{padding:0; margin:0;}
 body {font-family:arial, sans-serif;}
 .noPadOrMargin {list-style:none; padding:0; margin:0;}
+.marginTop {margin-top:1em;}
+.marginRight {margin-right:1em;}
+.marginBottom {margin-bottom:1em;}
+.marginLeft {margin-left:1em;}
 .fluidImg {max-width:100%; height:auto;}
 a{color:#000000; font-style:italic; text-decoration:none;}
 a:hover{color:#68ab10;}
+.centerText {text-align:center;}
+.textColumnThree {
+	padding: 0 1em; -webkit-column-count:3; moz-column-count:3; column-count:3; 
+	-webkit-column-gap:2em; -moz-column-gap:2em; column-gap:2em;
+	-webkit-column-rule:1px solid #666666; -moz-column-rule:1px solid #666666; column-rule:1px solid #666666;
+}
+.textColumnThree h3 {-webkit-column-span: all; column-span: all; padding:0 0 0.5em 0;}
+.italic {font-style:italic;}
 
 /*#wrapper {background-image:url("_images/tiao.jpg");} TODO : Insert proper background image here when ready */
 #top {text-align:center; font-family:Forum; padding:10px; background:#ffffff; float:left; font-size:0.8em;}
@@ -39,6 +51,15 @@ footer .logo {width:100%; text-align:center; font-size:2.5em; font-family:Forum;
 footer ul {width:30%; padding:1em 0; margin:0 6%; display:inline-block; text-align:left; list-style:none; vertical-align:top;}
 footer ul li {padding:0.2em 0;}
 footer a {color:#ffffff;}
+
+/*TEMPLATE SPECIFIC STYLES*/
+/*cleans your internal house*/
+.cleanseOptions {padding:2em 1em 1em 1em; border-bottom:1px solid #666666;}
+.cleanseOptions h3 {margin-bottom:1em; text-weight:bold;}
+.cleanseOptions img {margin:0 1em; float:left;}
+.cleanseOptions span {font-style:italic;}
+.cleanseOptions h4 {clear:both;}
+/*end cleanse your internal house*/
 
 @media screen and (min-width:640px) {
 	#top {font-size:1em; float:none;}
