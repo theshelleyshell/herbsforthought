@@ -9,8 +9,10 @@ body {font-family:arial, sans-serif;}
 .marginBottom {margin-bottom:1em;}
 .marginLeft {margin-left:1em;}
 .fluidImg {max-width:100%; height:auto;}
+.columnTwo {width:40%; margin:0 2%; float:left;}
 a{color:#000000; font-style:italic; text-decoration:none;}
 a:hover{color:#68ab10;}
+.bold {text-weight:bold;}
 .centerText {text-align:center;}
 .textColumnThree {
 	padding: 0 1em; -webkit-column-count:3; moz-column-count:3; column-count:3; 
@@ -21,8 +23,8 @@ a:hover{color:#68ab10;}
 .italic {font-style:italic;}
 
 /*#wrapper {background-image:url("_images/tiao.jpg");} TODO : Insert proper background image here when ready */
-#top {text-align:center; font-family:Forum; padding:10px; background:#ffffff; float:left; font-size:0.8em;}
-.natureslogo {width:3.2em; height:2.2em; position:absolute; right:10px; top:10px;}
+#top {text-align:center; font-family:Forum; padding:10px 0; background:#ffffff; float:left; font-size:0.8em;}
+.natureslogo {width:auto; height:36px; position:absolute; right:10px; top:10px;}
 
 #mainnav {padding:10px 0; background-color:#000000; color:#ffffff; clear:both;}
 #mainnav ul {max-height:23px; overflow:hidden; text-align:left; transition:max-height 0.5s ease-out;}
@@ -33,7 +35,7 @@ a:hover{color:#68ab10;}
 #mainnav ul li a {font-style:normal; font-size:1.3em; color:#ffffff;}
 #mainnav ul li a:hover {color:#68ab10;}
 
-.bodyWrapper {width:90%; margin:0 auto; padding:1em 0; background:#ffffff; box-shadow:0 4px 2px 2px #cccccc;}
+.bodyWrapper {width:90%; margin:0 auto; padding:1em 0; background:#ffffff;} /*box-shadow:0 4px 2px 2px #cccccc;*/
 #hero {margin:0 auto; text-align:center;}
 #hero img {width:100%; display:inline-block;}
 #hero nav{display:none;}
@@ -59,6 +61,15 @@ footer a {color:#ffffff;}
 .cleanseOptions img {margin:0 1em; float:left;}
 .cleanseOptions span {font-style:italic;}
 .cleanseOptions h4 {clear:both;}
+
+.whyHerbs h3 {margin-top:2em;}
+.whyHerbs p {margin-top:0.5em;}
+
+.membership {color:#666666;}
+.membership h1, .membership h2 {color:#68ab10;}
+.membership ul li span {color:#68ab10; text-decoration:underline;}
+
+.footSpaDetox .bigger {padding:1em 0; font-size:1.2em; clear:both;}
 /*end cleanse your internal house*/
 
 @media screen and (min-width:640px) {
@@ -72,7 +83,7 @@ footer a {color:#ffffff;}
 	#mainnav ul li {text-align:center; display:inline-block; padding:0.5em 2em;}
 	#mainnav .menuopen, #mainnav .menuclose, #mainnav:hover .menuopen, #mainnav:hover .menuclose {display:none;}
 	#hero nav{width:19%; display:inline-block; vertical-align:top; font-size:0.7em}
-	#linksnav li {width:100%; color:#000000; font-size:1.5em; margin:5px 0; float:left; text-indent:0.2em; text-align:left;}
+	#linksnav li {width:100%; color:#000000; font-size:1em; margin:5px 0; float:left; text-indent:0.2em; text-align:left;}
 	#linksnav li.heading {color:#ffffff; padding:0.2em 0.2em 0.2em 0; font-size:1.75em; margin:0 0 5px 0; background-color:#000000;}
 	#hero img {width:80%; display:inline-block;}
 	.bodyWrapper .listItem {font-size:1em;}
@@ -80,7 +91,7 @@ footer a {color:#ffffff;}
 
 @media screen and (min-width:960px) {
 	#mainnav ul li {text-align:center; font-size:0.8em; display:inline-block; padding:0 0.9em;}
-	#linksnav li {width:100%; color:#000000; font-size:1.5em; margin:5px 0; float:left; text-indent:0.2em; text-align:left;}
+	#linksnav li {width:100%; color:#000000; font-size:1.2em; margin:5px 0; float:left; text-indent:0.2em; text-align:left;}
 	#linksnav li.heading {color:#ffffff; padding:0.2em 0.3em 0.2em 0; font-size:1.75em; margin:0 0 5px 0; background-color:#000000;}
 	.bodyWrapper .listItem {width:29%; max-width:300px; border:5px solid #000000;}
 	.bodyWrapper .listItem:hover {color:#68ab10; border:5px solid #68ab10;}
