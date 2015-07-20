@@ -79,7 +79,7 @@ footer a {color:#ffffff;}
 }
 
 @media screen and (min-width:960px) {
-	#mainnav ul li {text-align:center; display:inline-block; padding:0 0.9em;}
+	#mainnav ul li {text-align:center; font-size:0.8em; display:inline-block; padding:0 0.9em;}
 	#linksnav li {width:100%; color:#000000; font-size:1.5em; margin:5px 0; float:left; text-indent:0.2em; text-align:left;}
 	#linksnav li.heading {color:#ffffff; padding:0.2em 0.3em 0.2em 0; font-size:1.75em; margin:0 0 5px 0; background-color:#000000;}
 	.bodyWrapper .listItem {width:29%; max-width:300px; border:5px solid #000000;}
