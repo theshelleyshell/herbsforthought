@@ -5,8 +5,17 @@
 	<title>Herbs & Vitamins | Herbs for Thought</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="" >
-	<link rel="stylesheet" type="text/css" href="../herbs.css"></link>
-	<link href='http://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
+	<base href='../' />
+	
+	<script type="text/javascript">
+		if(document.location.protocol == 'file:')	{
+			baseURL  = "../";
+		} else	{
+			baseURL = document.location.protocol+"//herbsforthought.com/";
+		}
+		document.getElementsByTagName('base')[0].href = baseURL;
+	</script>
+	<script type="text/javascript" src="templates/htmlHead.js"></script>
 </head>
 
 <body>
