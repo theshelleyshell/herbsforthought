@@ -1,0 +1,22 @@
+// DO NOT EDIT CONTENT HERE DIRECTLY
+// Edit content in header.html and transfer here when done.
+// Add backslash to end of each line once html content is transfered.
+
+document.write('\
+	<header id="top">\
+		<h1>HERBS for THOUGHT</h1>\
+		<div class="natureslogo"><img class="fluidImg" src="_images/ns-logo-landscape.jpg" alt="Natures Sunshine Independent Distributor"></div>\
+		<nav id="mainnav">\
+			<ul class="noPadOrMargin">\
+				<li class="menuopen">&#40;&#43;&#41;</li>\
+				<li class="menuclose">&#40;&#45;&#41;</li>\
+				<li><a href="index.html">Home</a></li>\
+				<li><a href="templates/herbs-and-vitamins.html">Herbs and Vitamins</a></li>\
+				<li><a href="templates/clean-your-internal-house.html">Cleansing</a></li>\
+				<li><a href="templates/foot-spa-detox.html">Foot Spa Detox</a></li>\
+				<li><a href="templates/tongue-and-fingernail-analysis.html">Tongue &#38; Fingernail Analysis</a></li>\
+				<li><a href="templates/ph-nine-five-water.html">PH 9.5 Water</a></li>\
+			</ul>\
+		</nav>\
+	</header>\
+');
