@@ -4,8 +4,14 @@
 
 document.write('\
 	<header id="top">\
+		<a href="index.html">\
 		<h1>HERBS for THOUGHT</h1>\
-		<div class="natureslogo"><img class="fluidImg" src="_images/ns-logo-landscape.jpg" alt="Natures Sunshine Independent Distributor"></div>\
+	</a>\
+	<div class="natureslogo">\
+		<a href="http://herbsforthought.mynsp.com/" target="_blank">\
+			<img class="fluidImg" src="_images/ns-logo-landscape.jpg" alt="Natures Sunshine Independent Distributor">\
+		</a>\
+	</div>\
 		<nav id="mainnav">\
 			<ul class="noPadOrMargin">\
 				<li class="menuopen">&#40;&#43;&#41;</li>\
