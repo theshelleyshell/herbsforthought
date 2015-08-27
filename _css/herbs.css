@@ -109,7 +109,7 @@ footer a {color:#ffffff;}
 	.bodyWrapper .listItem {width:29%; max-width:300px; border:5px solid #000000;}
 	.bodyWrapper .listItem:hover {color:#68ab10; border:5px solid #68ab10;}
 	.footlinkwrapper {width:80%;}
-	.weighlossTemplate {width: 65%; margin: 0 auto;}
+	.weightlossTemplate, .consultationTemplate {width: 65%; margin: 0 auto;}
 }
 
 @media screen and (min-width:1080px) {
