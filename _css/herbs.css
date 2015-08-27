@@ -3,6 +3,8 @@
 /* GLOBALS */
 html, body, h1, h2, h3, h4, h5, h6	{padding:0; margin:0;}
 body {font-family:arial, sans-serif;}
+.floatLeft {float: left;}
+.floatRight {float: right;}
 .noPadOrMargin {list-style:none; padding:0; margin:0;}
 .marginTop {margin-top:1em;}
 .marginRight {margin-right:1em;}
@@ -21,6 +23,7 @@ a:hover{color:#68ab10;}
 }
 .textColumnThree h3 {-webkit-column-span: all; column-span: all; padding:0 0 0.5em 0;}
 .italic {font-style:italic;}
+.underline {text-decoration: underline;}
 
 /*#wrapper {background-image:url("_images/tiao.jpg");} TODO : Insert proper background image here when ready */
 #top {text-align:center; font-family:Forum; padding:10px 0; background:#ffffff; float:left; font-size:0.8em;}
@@ -75,6 +78,8 @@ footer a {color:#ffffff;}
 .contactBlock {font-size: 1.5em; text-align: center; line-height:1.5em;}
 /*end cleanse your internal house*/
 
+.weightlossImg {margin: 0 auto; display: block;}
+
 @media screen and (min-width:640px) {
 	#top {font-size:1em; float:none;}
 	.bodyWrapper .listItem {font-size:0.7em;}
@@ -99,6 +104,7 @@ footer a {color:#ffffff;}
 	.bodyWrapper .listItem {width:29%; max-width:300px; border:5px solid #000000;}
 	.bodyWrapper .listItem:hover {color:#68ab10; border:5px solid #68ab10;}
 	.footlinkwrapper {width:80%;}
+	.weighlossTemplate {width: 65%; margin: 0 auto;}
 }
 
 @media screen and (min-width:1080px) {
