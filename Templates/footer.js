@@ -13,7 +13,7 @@ document.write('\
 				<li><a href="templates/foot-spa-detox.html">Foot Spa Detox</a></li>\
 			</ul>\
 			<ul>\
-				<li><a href="templates/tongue-and-fingernail-analysis.html">Tongue and Fingernail Analysis</a></li>\
+				<li><a href="templates/pre-screening-health-assesment.html">Health Assesment</a></li>\
 				<li><a href="templates/fat-grabbers.html">Fat Grabbers</a></li>\
 				<li><a href="templates/why-herbs.html">Why Herbs&#63;</a></li>\
 			</ul>\

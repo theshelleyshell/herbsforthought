@@ -20,7 +20,7 @@ document.write('\
 				<li><a href="templates/herbs-and-vitamins.html">Herbs and Vitamins</a></li>\
 				<li><a href="templates/clean-your-internal-house.html">Cleansing</a></li>\
 				<li><a href="templates/foot-spa-detox.html">Foot Spa Detox</a></li>\
-				<li><a href="templates/tongue-and-fingernail-analysis.html">Tongue &#38; Fingernail Analysis</a></li>\
+				<li><a href="templates/pre-screening-health-assesment.html">Health Assesment</a></li>\
 				<li><a href="templates/ph-nine-five-water.html">PH 9.5 Water</a></li>\
 			</ul>\
 		</nav>\
