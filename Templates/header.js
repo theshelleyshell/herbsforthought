@@ -21,7 +21,7 @@ document.write('\
 				<li><a href="templates/clean-your-internal-house.html">Cleansing</a></li>\
 				<li><a href="templates/foot-spa-detox.html">Foot Spa Detox</a></li>\
 				<li><a href="templates/pre-screening-health-assesment.html">Health Assesment</a></li>\
-				<li><a href="templates/ph-nine-five-water.html">PH 9.5 Water</a></li>\
+				<li><a href="templates/kangen-water.html">PH 9.5 Water</a></li>\
 			</ul>\
 		</nav>\
 	</header>\

@@ -29,7 +29,7 @@ document.write('\
 				<li><a href="templates/child-health.html">Childrens&#39;s Health</a></li>\
 				<li><a href="templates/sickness-and-prevention.html">Sickness &#38; Prevention</a></li>\
 				<li><a href="templates/consultation.html">Consultation</a></li>\
-				<li><a href="templates/ph-nine-five-water.html">PH 9.5 Water</a></li>\
+				<li><a href="templates/kangen-water.html">PH 9.5 Water</a></li>\
 			</ul>\
 		</div>\
 	</footer>\
