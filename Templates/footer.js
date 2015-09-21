@@ -5,7 +5,7 @@
 document.write('\
 	<footer>\
 		<div class="logo">\
-			<a href="index.html">HERBS for THOUGHT</a>\
+			<a href="index.html">HERBS <span class="fontScript light">for</span> THOUGHT</a>\
 		</div>\
 		<div class="footlinkwrapper">\
 			<ul>\
