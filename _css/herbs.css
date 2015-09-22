@@ -49,7 +49,8 @@ th, td {padding: 10px;}
 #mainnav ul li a {font-style:normal; font-size:1.3em; color:#ffffff;}
 #mainnav ul li a:hover {color:#68ab10;}
 
-.bodyWrapper {width:90%; margin:0 auto; padding:1em 0; background:#ffffff;} /*box-shadow:0 4px 2px 2px #cccccc;*/
+.bodyWrapper {width:90%; margin:0 auto; padding:1em 0; background:#ffffff; position: relative;} /*box-shadow:0 4px 2px 2px #cccccc;*/
+.borderImageLeft, .borderImageRight {display: none;}
 #hero {margin:0 auto; text-align:center;}
 #hero img {width:100%; display:inline-block;}
 #hero nav{display:none;}
@@ -120,6 +121,9 @@ footer a {color:#ffffff;}
 @media screen and (min-width:640px) {
 	#top {font-size:1em; float:none;}
 	.bodyWrapper .listItem {font-size:0.7em;}
+	.borderImageLeft, .borderImageRight {display: block; width: 30px; height: 100%; position: absolute; top: 0; left: -32px; 
+		background-image: url(../_images/divcontainersforpics_135x4700.jpg); background-size: contain; background-repeat: repeat-y;}
+	.borderImageRight {left: auto; right: -32px;}
 	footer ul {width:20%; margin:0 2%;}
 }
 
@@ -132,6 +136,8 @@ footer a {color:#ffffff;}
 	#linksnav li.heading {color:#ffffff; padding:0.2em 0.2em 0.2em 0; font-size:1.75em; margin:0 0 5px 0; background-color:#000000;}
 	#hero img {width:80%; display:inline-block;}
 	.bodyWrapper .listItem {font-size:1em;}
+	.borderImageLeft, .borderImageRight {left: -36px;}
+	.borderImageRight {left: auto; right: -36px;}
 }
 
 @media screen and (min-width:960px) {
@@ -147,6 +153,8 @@ footer a {color:#ffffff;}
 @media screen and (min-width:1080px) {
 	#mainnav ul li {padding:0 1em;}
 	.bodyWrapper {width:80%;}
+	.borderImageLeft, .borderImageRight {width: 90px; left: -111px;}
+	.borderImageRight {left: auto; right: -111px;}
 	#hero nav {width:24%; font-size:1em;}
 	#hero img {width:75%}
 	#linksnav li.heading {padding:0.2em 0.2em 0.2em 0;}
