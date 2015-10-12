@@ -15,7 +15,7 @@ body {font-family:arial, sans-serif;}
 .fluidImg {max-width:100%; height:auto;}
 .centerImage {display: block; margin: 1em auto;}
 .clear {clear: both;}
-.columnTwo {width:40%; margin:0 2%; float:left;}
+.columnTwo {width:90%; margin:0 2%; float:left;}
 a{color:#000000; font-style:italic; text-decoration:none;}
 a:hover{color:#68ab10;}
 .bold {font-weight:bold;}
@@ -27,18 +27,14 @@ a:hover{color:#68ab10;}
 .rightText {text-align: right;}
 table, th, td {border: 1px solid #666666; border-collapse: collapse;}
 th, td {padding: 10px;}
-.textColumnThree {
-	padding: 0 1em; -webkit-column-count:3; moz-column-count:3; column-count:3; 
-	-webkit-column-gap:2em; -moz-column-gap:2em; column-gap:2em;
-	-webkit-column-rule:1px solid #666666; -moz-column-rule:1px solid #666666; column-rule:1px solid #666666;
-}
-.textColumnThree h3 {-webkit-column-span: all; column-span: all; padding:0 0 0.5em 0;}
+.textColumnThree h3 {padding:0 0 0.5em 0;}
 
 /*#wrapper {background-image:url("_images/tiao.jpg");} TODO : Insert proper background image here when ready */
-#top {text-align:center; font-family:Forum; padding:10px 0; background:#ffffff; float:left; font-size:0.8em;}
-#top a {font-style:normal; font-size:2em;}
+#top {width: 100%; text-align:center; font-family:Forum; padding:10px 0; background:#ffffff; float:left; font-size:0.8em;}
+#top a {font-style:normal;  font-size:1.8em;}
 #top a:hover {color:#000000;}
-.natureslogo {width:auto; height:78px; position:absolute; right:10px; top:10px;}
+#top a h1 {width: 76%; font-size:1.5em;}
+.natureslogo {width:auto; height:100%; position:absolute; right:10px; top:10px;}
 
 #mainnav {padding:10px 0; background-color:#000000; color:#ffffff; clear:both;}
 #mainnav ul {max-height:23px; overflow:hidden; text-align:left; transition:max-height 0.5s ease-out;}
@@ -49,7 +45,7 @@ th, td {padding: 10px;}
 #mainnav ul li a {font-style:normal; font-size:1.3em; color:#ffffff;}
 #mainnav ul li a:hover {color:#68ab10;}
 
-.bodyWrapper {width:90%; margin:0 auto; padding:1em 0; background:#ffffff; position: relative;} /*box-shadow:0 4px 2px 2px #cccccc;*/
+.bodyWrapper {width:90%; margin:0 auto; padding:1em 0; background:#ffffff; position: relative; clear: both;} /*box-shadow:0 4px 2px 2px #cccccc;*/
 .borderImageLeft, .borderImageRight {display: none;}
 #hero {margin:0 auto; text-align:center;}
 #hero img {width:100%; display:inline-block;}
@@ -59,7 +55,7 @@ th, td {padding: 10px;}
 .bodyWrapper .list {text-align:center;}
 .bodyWrapper .list a {font-style:normal;}
 .bodyWrapper .list img {max-width:100%; height:auto; margin:0 0 14% 0;}
-.bodyWrapper .listItem {width:28%; position:relative; margin:1%; display:inline-block; font-size:0.5em; color:#ffffff; background-color:#000000; border:3px solid #000000;}
+.bodyWrapper .listItem {width:40%; position:relative; margin:1%; display:inline-block; font-size:0.5em; color:#ffffff; background-color:#000000; border:3px solid #000000;}
 .bodyWrapper .listItem .title {position:absolute; left:0; right:0; bottom:0; font-weight:bold; padding:5% 0; background-color:#000000;}
 
 footer {width:100%; background-color:#000000; color:#ffffff; padding:0 0 1em 0; clear:both;}
@@ -74,7 +70,7 @@ footer a {color:#ffffff;}
 /*cleans your internal house*/
 .cleanseOptions {padding:2em 1em 1em 1em; border-bottom:1px solid #666666;}
 .cleanseOptions h3 {margin-bottom:1em; text-weight:bold;}
-.cleanseOptions img {margin:0 1em; float:left;}
+.cleanseOptions img {margin:0 2em; float:left;}
 .cleanseOptions span {font-style:italic;}
 .cleanseOptions h4 {clear:both;}
 
@@ -86,7 +82,7 @@ footer a {color:#ffffff;}
 .membership ul li span {color:#68ab10; text-decoration:underline;}
 
 .footSpaDetox .bigger {padding:1em 0; font-size:1.2em; clear:both;}
-.contactBlock {font-size: 1.5em; text-align: center; line-height:1.5em;}
+.contactBlock {font-size: 1em; text-align: center; line-height:1.5em;}
 /*end cleanse your internal house*/
 
 .weightlossImg {margin: 0 auto; display: block;}
@@ -94,12 +90,13 @@ footer a {color:#ffffff;}
 .childHealtTemplate .separator, .weightlossTemplate .separator {height:1px; width: 80%; margin: 1em auto 2em auto; padding-bottom: 1em; border-bottom: 1px solid #666666;}
 
 .silverShieldTemplate {position: relative;}
-.silverCoins {position: absolute; right: 0; top: -10px;}
+.silverCoins {position: absolute; right: -1em; top: -10px;}
 .sevenReasons, .howItWorks, .silverQuotes, .silverHistory table {margin: 3em auto;}
 .howItWorks {width: 65%;}
 .howItWorks .worksImgCont {width: 20%; margin: 0 2%; display: inline-block; vertical-align: top; font-size: 0.5em;}
 .silverQuotes {text-align: center;}
 .silverShieldTemplate .columnTwo {width: 45%; margin: 2em 0; padding: 0 2%; display: inline-block; text-align: left;}
+.silverShieldTemplate h1 {margin-top: 90px;}
 .silverShieldTemplate .howItWorks .columnTwo {margin: 0.5em 0; text-align: center;}
 .silverHistory table td {border: 0;}
 .silverHistory table td .col3 {width: 5px; height: 100px; padding:5px 0; background-color: #666666; border-radius: 10px;}
@@ -111,20 +108,33 @@ footer a {color:#ffffff;}
 .waysToUseSilver tr:nth-child(even) {background: #68ab10;}
 .waysToUseSilver th {background: #000000;}
 .weightWrapper {margin: 0 auto;}
-.weightWrapper .weightStep {width: 80%; height: 180px; margin: 1em auto; border-bottom: 1px solid #777777;}
-.weightWrapper .weightStep .columnTwo {position: relative; top: 50%; transform: translateY(-50%);}
+.weightWrapper .weightStep {width: 80%; height: auto; padding: 1em; margin: 1em auto; border-bottom: 1px solid #777777;}
+.weightWrapper .weightStep .columnTwo {width: 100%; float: none;}
 .weightWrapper img {width: 140px; float: none;}
 .weightWrapper h2 {margin: 3em 0 1em 0;}
 .weightWrapper h2:first-of-type {margin: 1em 0 1em 0;}
+.weightWrapper span {margin: 1em; display: block;}
 .weightWrapper li {margin: 0.5em 0;}
 
-@media screen and (min-width:640px) {
+@media screen and (min-width:568px) {
+	.textColumnThree {
+		padding: 0 1em; -webkit-column-count:2; moz-column-count:2; column-count:2; 
+		-webkit-column-gap:2em; -moz-column-gap:2em; column-gap:2em;
+		-webkit-column-rule:1px solid #666666; -moz-column-rule:1px solid #666666; column-rule:1px solid #666666;
+	}
+	.textColumnThree h3 {-webkit-column-span: all; column-span: all;}
+	.columnTwo {width:40%;}
 	#top {font-size:1em; float:none;}
-	.bodyWrapper .listItem {font-size:0.7em;}
+	#top a h1 {width: 100%; font-size: 2em;}
+	.natureslogo {width: auto;}
+	.bodyWrapper .listItem {width:28%; font-size:0.7em;}
 	.borderImageLeft, .borderImageRight {display: block; width: 30px; height: 100%; position: absolute; top: 0; left: -32px; 
 		background-image: url(../_images/divcontainersforpics_135x4700.jpg); background-size: contain; background-repeat: repeat-y;}
 	.borderImageRight {left: auto; right: -32px;}
+	.contactBlock {font-size: 1.5em;}
 	footer ul {width:20%; margin:0 2%;}
+	.silverCoins {right: -1.5em;}
+	.silverShieldTemplate h1 {margin-top: 0; width: 70%;}
 }
 
 @media screen and (min-width:768px) {
@@ -138,9 +148,13 @@ footer a {color:#ffffff;}
 	.bodyWrapper .listItem {font-size:1em;}
 	.borderImageLeft, .borderImageRight {left: -36px;}
 	.borderImageRight {left: auto; right: -36px;}
+	.weightWrapper .weightStep {height: 200px;}
+	.weightWrapper .weightStep .columnTwo {width: 40%; position: relative; top: 50%; transform: translateY(-50%); float: left;}
+	.silverCoins {right: -2em;}
 }
 
 @media screen and (min-width:960px) {
+	.textColumnThree {-webkit-column-count:3; moz-column-count:3; column-count:3;}
 	#mainnav ul li {text-align:center; font-size:0.8em; display:inline-block; padding:0 0.9em;}
 	#linksnav li {width:100%; color:#000000; font-size:1.2em; margin:5px 0; float:left; text-indent:0.2em; text-align:left;}
 	#linksnav li.heading {color:#ffffff; padding:0.2em 0.3em 0.2em 0; font-size:1.75em; margin:0 0 5px 0; background-color:#000000;}
@@ -148,6 +162,8 @@ footer a {color:#ffffff;}
 	.bodyWrapper .listItem:hover {color:#68ab10; border:5px solid #68ab10;}
 	.footlinkwrapper {width:80%;}
 	.weightlossTemplate, .consultationTemplate, .preScreenTemplate, .childHealtTemplate {width: 65%; margin: 0 auto;}
+	.weightWrapper .weightStep {height: 250px;}
+	.silverCoins {right: 0;}
 }
 
 @media screen and (min-width:1080px) {
